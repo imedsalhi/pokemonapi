@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>pokemon </title>
+    <link rel="stylesheet" type="text/css" href="pokemon.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+
+<body>
+    <button onclick="charger();" style="background-image:url('pokemon.png')">list pokemon</button>
+    <div id="naviger">
+        <button class="button" onclick="nextpage('a');">suivant</button>
+        <button class="button" onclick="nextpage('b');">precedent</button>
+    </div>
+    <section>
+        <div id="list_pokemon">
+            <ul id="pokemon_list"></ul>
+
+        </div>
+        <div id="pokemon_info">
+            <ul id="pokemon"></ul>
+        </div>
+    </section>
+    <script src="pokemon.js"></script>
+</body>
+
+</html>
